@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "hamster_business",
+	"version": "${version}",
+	"name": "HamsterBusiness",
+	"description": "Hamster business, братья в деле! Тапаем, тапаем всей деревней!",
+	"authors": [
+		"breelock"
+	],
+	"contact": {
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/hamster_business/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.breelock.hamster_business.HamsterBusiness"
+		]
+	},
+	"mixins": [
+		"hamster_business.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

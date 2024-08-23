@@ -1,0 +1,8 @@
+{
+  "gui.hamster_business.hamster_coin0": "хамстер коин",
+  "gui.hamster_business.hamster_coin1": "хамстер коина",
+  "gui.hamster_business.hamster_coin2": "хамстер коинов",
+  "gui.hamster_business.cannot_tap": "Вы не можете тапать хомяка когда голодны",
+  "gui.hamster_business.you_earned": "Вы заработали",
+  "item.hamster_business.hamster_phone": "Хамстер фон"
+}
